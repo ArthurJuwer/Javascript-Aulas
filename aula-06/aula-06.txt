@@ -1,0 +1,52 @@
+GITBASH COMANDOS
+
+echo = Printar algo na tela
+node = entrar no Node para codar em Javascript
+whoAmi = Mostrar o usuário
+clear = Limpar o terminar
+pwd = Endereço completo da pasta que estamos trabalhando
+ls = Listar os arquivos da pasta 
+ls - la = listar arquivos e arquivos ocultos
+cd = change directory trocar a pasta para 
+cd .. = retornar para pasta anterior
+cd ~ = retornar para pasta raiz do computador
+mkdir = criar uma nova pasta
+touch = criar novo arquivo
+rm nomeArquivo = remove um arquivo
+rm -r nomePasta
+mv nomearquivo novoNomeArquivo - trocar o nome do arquivo
+echo "texto" >> nomeArquivo -> colocar algo dentro do arquivo
+cat nomeArquivo = visualizar o que tem dentro
+head = exibir as 10 ou quantidade que pedir no arquivo
+head -n NUMERO = mostra as de cima para baixo NUMERO linhas
+tall -n NUMERO = mostra as de baixo para cima NUMERO linhas
+grep palavraQueEstouBuscando nomeArquivo = permite buscar um texto no arquivo
+
+
+
+Padrão para criar uma pasta e colocar um arquivo dentro
+
+cd ~ (voltar para pasta raiz)
+ls(listar)
+cd Documents/ (entrar em documentos)
+mkdir nomePasta (criar pasta)
+ls (conferir se foi criada)
+touch nomeArquivo.js(criar arquivo)
+
+Padrão remover um arquivo
+
+rm nomeArquivo (remover)
+
+Padrão remover Pasta
+cd .. (Usar apenas caso você esteja na pasta)
+ls (listar)
+rm -r pastaTeste (remover)
+
+Padrão Adicionar texto no arquivo
+
+echo "texto" >> nomeArquivo (colocar algo dentro do arquivo)
+cat nomeArquivo (visualizar o que tem dentro)
+
+Padrão procurar um texto em um arquivo
+
+grep palavraQueEstouBuscando nomeArquivo(buscar um texto no arquivo)
