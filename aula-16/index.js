@@ -25,3 +25,15 @@ console.log(fraseInteira)
 
 const novaFraseInteira = fraseInteira.replaceAll("cenoura", "maçã")
 console.log(novaFraseInteira)
+
+// peça para o usuario escrever uma frase e imprima no console a frase alterado, com: 
+
+// TODAS AS LETRAS MAISCULAS
+// NA LINGUAS DO i (substituindo a vogal "o" por "i")
+// O tamanho da frase:
+
+let fraseUsuario = prompt("digite uma frase: ")
+
+console.log(fraseUsuario.toUpperCase())
+console.log(fraseUsuario.replaceAll("o", "i"))
+console.log(fraseUsuario.length)
