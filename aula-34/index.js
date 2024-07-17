@@ -3,14 +3,14 @@ const arrayNotas = []
 let somaNotas = 0
 
 for(let i = 0; i < 4; i++){
-    let number = prompt("Digite a"+(i+1)+ "nota")
+    let number = Number(prompt("Digite a"+(i+1)+ "nota"))
     arrayNotas.push(number)
     somaNotas = somaNotas + number
 }
 const mediaNotas = somaNotas / 4
 
 console.log(arrayNotas)
-console.log("A média é" + mediaNotas)
+console.log("A média é " + mediaNotas)
 
 // 14)
 
@@ -26,24 +26,15 @@ for(let i = 0; i < 21; i++){
         arrayImpares.push(number)
     }
 }
+console.log("Os numeros Pares são: " + arrayPares)
+console.log("Os numeros Impares são: " + arrayImpares)
 
 // 15)
 
-const arrayPosicoes = [9,11,2,3,4,6,8,21,32,11]
+const arrayPosicoes = [9,11,2,3,4,6,8,21,32,10]
 
-let p1
-let p2
-let p3
-let p4
-let p5
-let p6
-let p7
-let p8
-let p9
-let p10
+const arrayOrganizado = arrayPosicoes.sort() 
 
-for(let i = 0; i < 10; i++){
-    arrayPosicoes
-}
+console.log(arrayOrganizado)
 
 
