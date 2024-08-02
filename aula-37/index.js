@@ -19,3 +19,14 @@ const somaFinalizada = somarNumeros(4,5)
 console.log(somaFinalizada)
 
 somarNumeros(somarNumeros(1,2),5)
+
+// exercicio 4 
+
+const array = [1,2,3,4,5]
+
+function receberArray(array){
+    const novoArray = []
+    novoArray.push(array[0]/2,array[1]/2)
+    return novoArray
+}
+console.log(receberArray(array))
